@@ -12,7 +12,7 @@ const http=require('http');
 
 const response=(request, response)=>{
     response.writeHead(200,{'Content-Type':'text/html'})
-     response.write("Hello, I'm Learning Nods Js completely");
+     response.write("Hello, I'm Learning Nods Js  completely");
     response.end();
     
     }

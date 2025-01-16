@@ -48,7 +48,41 @@ Manage the detail of packages
 ********** How to install package **********
 
 npm install package_name
-like npm install axios
+also we write like npm i package_name
+
+like, npm install axios
 
 
+********** what is Nodemon **********
 
+Nodemon is a package
+Use to continusly run your node project.
+we dont need to run command again and again, just click on save it save the changes and show the output
+
+intall like 
+-> Go to terminal
+-> Write npm install nodemon
+
+Also we intall it globle like
+-> npm install nodemon -g
+
+now for check file then run command like
+
+nodemon .\file name 
+like  nodemon .\nodemon.js
+
+
+********** events **********
+
+Kici file ka delete hona, read hona, open hona, close hona, aaisi cheezy jo server pr hori hoti ha, called event
+
+
+********** Express JS *****
+
+-> Web framework for node.js
+-> Fast & Flexible (no limitations, no ristrictions)
+-> Simple framework
+-> Save Time
+
+Installation
+npm i express
