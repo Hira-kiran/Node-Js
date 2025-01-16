@@ -14,8 +14,8 @@
 // 2. Non Globe (inhain import krana prhta ha) like file system
 
 
-Console.log("object") 
-const myFile=require('fs');
 
+const myFile=require('fs');
+Console.log("object") 
 
 myFile.writeFileSync("coreModule.txt", "Hello, I'm Hira Kiran")
