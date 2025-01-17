@@ -15,7 +15,7 @@
 
 
 
-const myFile=require('fs');
-Console.log("object") 
+const myFile= require('fs');
+Console.log("objecTt") 
 
 myFile.writeFileSync("coreModule.txt", "Hello, I'm Hira Kiran")
