@@ -86,3 +86,30 @@ Kici file ka delete hona, read hona, open hona, close hona, aaisi cheezy jo serv
 -> minimum line of code then node js
 Installation
 npm i express
+
+********** EJS Template Engine *****
+EJS STANDS FOR (Embedded Javascript Template)
+// EJS is a Template Engine
+// Use to rendor the dynamic data/pages
+ like api values, database values etc
+
+
+Firstly we need to install it
+like npm i ejs
+When we use EJS then we need to make a folder name (views). Bcz express views waly folder ko by default get kr lyta ha. 
+if we put another name, then we need to define its path etc. Which is not good approach
+
+
+
+********** Middle Ware *****
+
+is like a function that is used to handle request and response cycle.
+it apply only on routes
+We mostly use this in authentication, error handling etc
+
+Types:
+-> application level middleware  (In this we apply middleware on all routes)
+-> router level middleware  (In this we apply middleware on specific route)
+-> build in middleware
+-> error handle middleware
+-> thirf party middleware
